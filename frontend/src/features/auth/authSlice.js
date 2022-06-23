@@ -45,7 +45,7 @@ export const login = createAsyncThunk("auth/login", async (user, thunkAPI) => {
 });
 
 export const logout = createAsyncThunk("auth/logout", async () => {
-  await authService.logout();
+  authService.logout();
 });
 
 export const authSlice = createSlice({
@@ -57,7 +57,6 @@ export const authSlice = createSlice({
       state.isError = false;
       state.isSuccess = false;
       state.message = "";
-      console.log("dwadawd");
     },
   },
   extraReducers: (builder) => {

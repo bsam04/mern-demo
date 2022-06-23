@@ -28,6 +28,7 @@ function Login() {
 
     if (isSuccess || user) {
       //Navigate to the dashboard
+      console.log("NAVIGATING TO DASHBOARD!!!!!");
       navigate("/");
     }
 

@@ -4,8 +4,6 @@ This project acts as a demo to test out the MERN stack (MongoDB, Express.js, Rea
 
 This webapp will allow a user to create and delete goals.
 
-A demo can be seen [here](https://bsam-mernapp.herokuapp.com/) (note that it may take some time for the app to be ready if it has not been accessed in a while).
-
 This project was based off the MERN stack [video series](https://www.youtube.com/watch?v=-0exw-9YJBo&list=PLillGF-RfqbbQeVSccR9PGKHzPJSWqcsm) from Traversy Media
 
 ## Installation
